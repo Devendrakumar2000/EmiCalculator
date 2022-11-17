@@ -50,7 +50,8 @@ const Installment = () => {
             months: ""
         })
        
-        console.log(emis)
+        console.log(emis);
+        console.log(dates);
         setToggle(!toggle);
     }
     console.log(emis ,"by using hook")
